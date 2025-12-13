@@ -1,0 +1,182 @@
+{
+  "explorer.confirmDelete": false,
+  "editor.fontSize": 15.5,
+  "editor.fontFamily": "Dank Mono, Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "normal",
+  "terminal.integrated.fontWeight": "normal",
+  "editor.fontVariations": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "editor.minimap.showSlider": "always",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.systemColorTheme": "dark",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // === Bracket pair guides only when active ===
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+
+  "workbench.colorCustomizations": {
+    // === Terminal ===
+    "terminal.background": "#151515",
+    // "terminal.background": "#212121",
+    "terminal.foreground": "#d4d4d4",
+    "terminalCursor.background": "#d4d4d4",
+    "terminalCursor.foreground": "#d4d4d4",
+
+    // // === Editor ===
+    // "editor.background": "#212121",
+
+    // // === Status Bar ===
+    "statusBar.background": "#131313",
+    "statusBarItem.remoteBackground": "#ff0000",
+
+    // // === SideBar ===
+    // "sideBar.background": "#131313",
+
+    // === Line numbers ===
+    "editorLineNumber.foreground": "#535353",
+    "editorLineNumber.activeForeground": "#e6e6e6",
+    // "editorLineNumber.background": "#212121",
+    // "editorGutter.background": "#212121",
+
+    // === Indent guides ===
+    "editorIndentGuide.background1": "#434343",
+    "editorIndentGuide.activeBackground1": "#434343",
+
+    // === ACTIVE bracket highlight ONLY ===
+    "editorBracketHighlight.unexpectedBracket.foreground": "#FFD700",
+    "editorBracketHighlight.activeForeground": "#FFD700"
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmPasteNative": false,
+  "workbench.colorTheme": "CodeSandbox Black",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "github.copilot.chat.scopeSelection": true,
+  "workbench.settings.applyToAllProfiles": ["github.copilot.enable"],
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true,
+    "jsonc": false,
+    "javascript": false,
+    "javascriptreact": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "window.title": "${dirty}${activeEditorShort}${separator}${separator}${profileName}${separator}${appName}",
+  "git.ignoreMissingGitWarning": true,
+  "git.openRepositoryInParentFolders": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "mdb.mcp.server": "prompt",
+  "terminal.integrated.stickyScroll.enabled": false,
+  "material-icon-theme.activeIconPack": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+
+  // === ITALIC SYNTAX STYLE ===
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "punctuation.definition.comment",
+          "keyword",
+          "storage",
+          "storage.type",
+          "entity.name.type.class",
+          "entity.name.function",
+          "variable.language",
+          "variable.parameter",
+          "entity.other.attribute-name",
+          "tag.html",
+          "attribute.name"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "meta.object-literal.key",
+          "support.type.property-name",
+          "meta.property-name",
+          "meta.object-literal.key.js",
+          "meta.object-literal.key.ts",
+          "support.constant.property-value",
+          "meta.property-name.css",
+          "support.type.property-name.css"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator",
+          "punctuation.separator",
+          "keyword.operator.ternary"
+        ],
+        "settings": {
+          "fontStyle": "" // disable italics for operators like ?, =
+        }
+      },
+      {
+        "scope": "invalid",
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.restore": false,
+  "zenMode.silentNotifications": false,
+  "yaclock.hour12": true,
+  "yaclock.prefix": "⚡",
+  "yaclock.showAmPm": true,
+  "yaclock.priority": 0,
+  "yaclock.showDate": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "files.autoSave": "afterDelay",
+  "breadcrumbs.enabled": false,
+  "outline.collapseItems": "alwaysCollapse"
+}
