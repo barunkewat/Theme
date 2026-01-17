@@ -1,6 +1,6 @@
 {
   "explorer.confirmDelete": false,
-  "editor.fontSize": 15.5,
+  "editor.fontSize": 16,
   "editor.fontFamily": "Dank Mono, Consolas, 'Courier New', monospace",
   "editor.fontWeight": "normal",
   "terminal.integrated.fontWeight": "normal",
@@ -11,7 +11,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.startupEditor": "none",
-  "editor.minimap.showSlider": "always",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -25,6 +24,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "window.systemColorTheme": "dark",
+
+  // === Cursor ===
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
 
@@ -34,6 +35,10 @@
   "editor.guides.highlightActiveBracketPair": true,
 
   "workbench.colorCustomizations": {
+    // === For ENV Official+ Vault extension text visibility ===
+    "editorCodeLens.foreground": "#ff0000",
+    // "editor.codeLens": false,
+
     // === Terminal ===
     "terminal.background": "#151515",
     // "terminal.background": "#212121",
@@ -41,14 +46,13 @@
     "terminalCursor.background": "#d4d4d4",
     "terminalCursor.foreground": "#d4d4d4",
 
-    // // === Editor ===
+    // === Editor ===
     // "editor.background": "#212121",
 
-    // // === Status Bar ===
-    "statusBar.background": "#131313",
-    "statusBarItem.remoteBackground": "#ff0000",
+    // === Status Bar ===
+    // "statusBar.background": "#131313",
 
-    // // === SideBar ===
+    // === SideBar ===
     // "sideBar.background": "#131313",
 
     // === Line numbers ===
@@ -61,7 +65,7 @@
     "editorIndentGuide.background1": "#434343",
     "editorIndentGuide.activeBackground1": "#434343",
 
-    // === ACTIVE bracket highlight ONLY ===
+    // === Active bracket highlight only ===
     "editorBracketHighlight.unexpectedBracket.foreground": "#FFD700",
     "editorBracketHighlight.activeForeground": "#FFD700"
   },
@@ -81,9 +85,6 @@
   "workbench.settings.applyToAllProfiles": ["github.copilot.enable"],
   "github.copilot.enable": {
     "*": false,
-    "plaintext": true,
-    "markdown": true,
-    "scminput": true,
     "jsonc": false,
     "javascript": false,
     "javascriptreact": false
@@ -108,7 +109,7 @@
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
 
-  // === ITALIC SYNTAX STYLE ===
+  // === Italic syntax style ===
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -152,13 +153,19 @@
           "keyword.operator.ternary"
         ],
         "settings": {
-          "fontStyle": "" // disable italics for operators like ?, =
+          "fontStyle": ""
         }
       },
       {
         "scope": "invalid",
         "settings": {
           "fontStyle": ""
+        }
+      },
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
         }
       }
     ]
@@ -177,6 +184,15 @@
   "yaclock.showDate": true,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "files.autoSave": "afterDelay",
+  "outline.collapseItems": "alwaysCollapse",
   "breadcrumbs.enabled": false,
-  "outline.collapseItems": "alwaysCollapse"
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "dotenv.enableAutocloaking": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
 }
