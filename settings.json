@@ -1,7 +1,7 @@
 {
   "explorer.confirmDelete": false,
-  "editor.fontSize": 16,
-  "editor.fontFamily": "Dank Mono, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 15.75,
+  "editor.fontFamily": "Dank Mono, Operator Mono Lig, Monaspace Radon Var, Consolas, 'Courier New', monospace",
   "editor.fontWeight": "normal",
   "terminal.integrated.fontWeight": "normal",
   "editor.fontVariations": false,
@@ -36,7 +36,8 @@
 
   "workbench.colorCustomizations": {
     // === For ENV Official+ Vault extension text visibility ===
-    "editorCodeLens.foreground": "#ff0000",
+    "editorCodeLens.foreground": "default",
+    // "editorCodeLens.foreground": "#E1270E",
     // "editor.codeLens": false,
 
     // === Terminal ===
@@ -51,6 +52,7 @@
 
     // === Status Bar ===
     // "statusBar.background": "#131313",
+    // "statusBarItem.remoteBackground": "#ff0000",
 
     // === SideBar ===
     // "sideBar.background": "#131313",
@@ -177,11 +179,6 @@
   "zenMode.hideStatusBar": false,
   "zenMode.restore": false,
   "zenMode.silentNotifications": false,
-  "yaclock.hour12": true,
-  "yaclock.prefix": "⚡",
-  "yaclock.showAmPm": true,
-  "yaclock.priority": 0,
-  "yaclock.showDate": true,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "files.autoSave": "afterDelay",
   "outline.collapseItems": "alwaysCollapse",
@@ -194,5 +191,6 @@
   },
   "dotenv.enableAutocloaking": true,
   "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "liveServer.settings.donotVerifyTags": true,
 }
